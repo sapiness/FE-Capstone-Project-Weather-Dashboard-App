@@ -77,7 +77,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="WeatherCard">
 
       <h1 className="app-name sm:text-sm md:text-base font-bold">Weather Dashboard</h1>
       <SearchBar

@@ -2,10 +2,10 @@
 import React from 'react';
 function SearchBar({ onSearch, onChange, value }) {
   return (
-    <div className="search-bar">
+    <div className="search">
       <input
         type="text"
-        className="city-search sm:h-200px"
+        className="SearchBar sm:h-200px"
         placeholder="Enter City Name.."
         name="query"
         value={value}
