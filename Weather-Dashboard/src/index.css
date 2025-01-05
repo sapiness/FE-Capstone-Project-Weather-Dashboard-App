@@ -26,12 +26,14 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  min-width: 480px;
   min-height: 100vh;
   background-image: url("C:/Users/uiuxs/OneDrive/Desktop/FE-Capstone-Project-Weather-Dashboard/FE-Capstone-Project-Weather-Dashboard-App/Weather-Dashboard/images/weather.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position:center;
 }
+
 
 h1 {
   font-size: 3.2em;
