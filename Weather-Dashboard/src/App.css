@@ -47,6 +47,40 @@ html {
 	box-shadow: 0 8px 16px rgba(93, 93, 93, 0.397);
 }
 
+
+@media screen and (min-width:480px) {
+	.WeatherCard {
+		width: 400px;
+	min-height: 440px;
+	margin: 80px auto;
+	padding-bottom: 45px;
+	border-radius: 6px;
+	}
+
+	.app-name {
+		font-size: 2.3rem;
+		color: rgb(17, 144, 0);
+		margin-bottom: 18px;
+		margin-top: 12px;
+	}
+
+	.icon-temp img {
+		width: 80px;
+		height: 80px;
+		margin: auto;
+	}
+}
+
+@media screen and (min-width:640px) {
+	.WeatherCard {
+		width: 500px;
+	min-height: 440px;
+	margin: 80px auto;
+	padding-bottom: 45px;
+	border-radius: 6px;
+	}
+}
+
 .SearchBar {
 	width: 100%;
 	max-width: 400px;
